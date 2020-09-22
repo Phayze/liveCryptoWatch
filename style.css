@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: rgb(255, 134, 86);
+}
+.top{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(52, 59, 63);
+    display: flex;
+}
+nav ul{
+    display: flex;
+    position: absolute;
+    right: 0;
+}
+nav ul li{
+    list-style: none;
+    margin: 20px 50px;
+    
+}
+nav ul li a{
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(243, 121, 73);
+    transition: .15s;
+}
+nav ul a:hover{
+    color: white;
+}
+img{
+    width: 100px;
+    height: 75px;
+    margin: 0px 20px;
+}
+.info{
+    color: white;
+    text-align: center;
+}
+.container{
+    width: 80%;
+    height: 100vh;
+    background-color: cadetblue;
+    margin: 30px auto;
+    border-radius: 7px;
+    overflow: hidden;
+    color: white;
+    background-color:  rgb(58, 62, 73);
+}
+.asset1{
+    width: 100%;
+    height: 25%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    display: flex;
+    padding: 15px;
+    border-bottom: 1px solid white;
+}
+.container img{
+    width: 150px;
+    height: 150px;
+    margin: 20px 10px;
+}
+.container .asset1 .in-usd{
+    margin: 40px 120px;
+}
+.in-gbp,.in-eur{
+    margin: 80px 120px;
+}
+.e-in-gbp{
+    margin: 80px 130px;
+}
+.e-in-eur{
+    margin: 80px 150px;
+}
+.eos-in-gbp{
+    margin: 80px 185px;
+}
+.eos-in-eur{
+    margin: 80px 140px;
+}
+.asset2{
+    width: 100%;
+    height: 25%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    display: flex;
+    padding: 15px;
+    border-bottom: 1px solid white;
+
+}
+.container .asset2 .e-in-usd{
+    margin: 40px 120px;
+}
+.asset3{
+    width: 100%;
+    height: 25%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    display: flex;
+    padding: 15px;
+    border-bottom: 1px solid white;
+
+}
+.container .asset3 .e-in-usd{
+    margin: 40px 120px;
+}
+.ty{
+    text-align: center;
+}
+
+/*Page 2*/
+
+.title{
+    color: white;
+    text-align: center;
+}
+.c1{
+    margin: 0 auto;
+    width: 75vh;
+    height: 50px;
+    background: white;
+    display: flex;
+    overflow: hidden;
+    transition: .2s;
+}
+button{
+    width: 150px;
+    border: none;
+    background: chocolate;
+}
+button:hover{
+    cursor: pointer;
+    color: white;
+}
+.fa-arrow-down{
+    font-size: 30px;
+}
+.h1t{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+}
+/*Page 3*/
+
+.title2{
+    color: white;
+    text-align: center;
+}
+.cont3{
+    width: 80%;
+    height: 500px;
+    background: rgb(49, 42, 44);
+    margin: 40px auto;
+    color: white;
+    padding: 15px;
+}
+.ar{
+    padding: 30px;
+    color: yellow;
+}
